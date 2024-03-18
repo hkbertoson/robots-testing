@@ -2,10 +2,19 @@
   "name": "robots-testing",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun deploy.ts",
+    "prod": "bun deploy.ts -e prod"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.28",
+    "@types/yargs": "^17.0.32",
+    "yargs": "^17.7.2"
   }
 }
