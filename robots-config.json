@@ -1,0 +1,4 @@
+{
+    "dev": "robots_dev.txt",
+    "prod": "robots_prod.txt"
+}
